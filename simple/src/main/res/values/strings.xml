@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">simple</string>
+    <string name="native_crash_test">.native_crash_test</string>
+</resources>

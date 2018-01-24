@@ -40,6 +40,7 @@ void crash_sigaction(int signal, siginfo *info, void *reserved) {
     int iPid = getpid();
     jclass cls = sigEnv->FindClass("com/flash/nativecatch/NativeHandler");
     jmethodID tempmethodID = sigEnv->GetMethodID(cls, "onNativeCrash", "()V");
+    LOG("native- my_sigaction recived2");
     switch (signal) {
         case SIGTRAP:
             LOG("native- SIGABRT recived");

@@ -3,7 +3,7 @@ package com.flash.nativecatch
 /**
  * Created by tianxiaolei on 2018/1/3.
  */
-class NativeHandler {
+class NativeHandlerKt {
     var onNativeCrashed: OnNativeCrashed? = null
 
     interface OnNativeCrashed {

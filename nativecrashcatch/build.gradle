@@ -42,17 +42,17 @@ dependencies {
 }
 ext {
     bintrayRepo = 'android'
-    bintrayName = 'flashwebview'
+    bintrayName = 'nativecrashcatch'
 
-    siteUrl = 'https://github.com/FreeFlash/FlashWebView'
-    gitUrl = 'https://github.com/FreeFlash/FlashWebView.git'
+    siteUrl = 'https://github.com/FreeFlash/NativeCrashCatch'
+    gitUrl = 'https://github.com/FreeFlash/NativeCrashCatch.git'
 
-    groupId = 'com.flash.flashwebview'
-    artifactId = 'flashwebview'
+    groupId = 'com.flash.nativecrashcatch'
+    artifactId = 'nativecrashcatch'
 
-    libraryName = 'flashwebview'
-    libraryVersion = '1.0.12'
-    libraryDescription = 'This is easy webview.'
+    libraryName = 'nativecrashcatch'
+    libraryVersion = '0.0.1'
+    libraryDescription = 'This is easy native crash catch libiary.'
 
     developerId = 'FreeFlash'
     developerName = 'FreeFlash'
